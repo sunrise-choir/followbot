@@ -1,0 +1,35 @@
+{
+  "name": "followbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunrise-choir/followbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunrise-choir/followbot/issues"
+  },
+  "homepage": "https://github.com/sunrise-choir/followbot#readme",
+  "dependencies": {
+    "obv": "0.0.1",
+    "secret-stack": "^6.0.1",
+    "ssb-client": "^4.6.3",
+    "ssb-config": "github:ssbc/ssb-config#override-keys",
+    "ssb-db": "github:sunrise-choir/ssb-db#follower",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "ssb-friends": "^4.0.0",
+    "ssb-query": "^2.3.0",
+    "ssb-server": "^14.1.2",
+    "ssb-ws": "^5.1.1",
+    "standard": "^12.0.1"
+  }
+}
